@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 30px;
+}
+nav ul {
+   display: flex;
+  justify-content: center;
+   align-items: center;
+list-style: none;
+}
+
+nav ul li {
+    padding: 10px 25px 10px 25px ;
+   
+}
+
+nav ul li a{
+    color: rgb(119, 122, 125);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(222, 224, 227);
+    border-bottom: 2px solid white;
+    transition: 0.2s;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.flex-container{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+}
+.flex-1{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.BwEQe64gjJXiiS070rpFYQHaHa&pid=Api&P=0);
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin: 2%;
+   
+    border-radius: 15px;
+    line-height: 200px;
+    
+    font-size: 1.5em;
+    font-weight: 900;
+   
+}
+
+.flex-2{
+    background-position: center ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://pngimg.com/uploads/adidas/adidas_PNG17.png);
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+     border-radius: 15px;
+     line-height: 200px;  
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-3{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.ELH3JxpcefqVIsuSBpK7sQHaHa&pid=Api&P=0);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+    
+     border-radius: 15px;
+     line-height: 200px;
+   
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-4{
+    background-image: url(https://logodownload.org/wp-content/uploads/2014/09/asus-logo-0.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+     
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-5{
+    background-image: url(https://clipartcraft.com/images/amazon-logo-transparent-icon-3.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+    
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-6{
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/TikTok-Logo-2017-2018.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+    
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-7{
+    background-image: url(https://pluspng.com/img-png/xiaomi-logo-png-xiaomi-mi-fit-logo-300.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+   
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-8{
+    background-image: url(https://beta.pingendo.com/site-assets/ico_windows.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+     
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-9{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.RrNq9h2Lq9uWNWAxPVBd0QHaHa&pid=Api&P=0);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+     background-color: red;
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
+ .flex-10{
+    background-image: url(https://pngimg.com/uploads/netflix/netflix_PNG10.png);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+     margin: 2%;
+     background-color: black;
+     border-radius: 15px;
+     line-height: 200px;
+     color: aliceblue;
+     font-size: 1.5em;
+     font-weight: 900;
+    
+ }
