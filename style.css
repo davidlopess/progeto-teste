@@ -34,7 +34,7 @@ header nav ul {
 }
 
 header nav ul li:hover{
-    padding-bottom: 5px;
+   
     transition: 0.2s;
 }
 
@@ -51,11 +51,12 @@ header nav ul li a:hover {
     transition: 0.2s;
     font-size: 17px;
     font-weight: 600;
+    padding-bottom: 5px;
    
 }
 
 .flex-container{
-    width: 100%;
+    max-width: 100%;
     height:auto;
     text-align: center;
     display: flex;
@@ -68,14 +69,15 @@ header nav ul li a:hover {
 
 
 
-.flex-2{
-    background-image: url(http://www.pngall.com/wp-content/uploads/2016/06/Adidas-Logo-PNG.png);
-    width: 200px;
+/* .flex-2{
+    background-image: url();
+    max-width: 100%;
     height: 200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
     border-radius: 15px;
+    margin: auto; 
     
       
    
@@ -85,82 +87,131 @@ header nav ul li a:hover {
     background-position: center ;   
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.BwEQe64gjJXiiS070rpFYQHaHa&pid=Api&P=0);
-    width: 200px;
+    background-image: url();
+    max-width: 100%;
     height: 200px;
     margin: auto;
     
  }
  .flex-3{
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.ELH3JxpcefqVIsuSBpK7sQHaHa&pid=Api&P=0);
+    background-image: url();
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;  
-    width: 200px;
-    height: 200px;       
+    max-width: 100%;
+    height: 200px;      
+    margin: auto;  
  }
  .flex-4{
-    background-image: url(https://logodownload.org/wp-content/uploads/2014/09/asus-logo-0.png);
+    background-image: url();
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    max-width: 100%;
+    margin: auto; 
     height: 200px;   
  }
  .flex-5{
-    background-image: url(https://clipartcraft.com/images/amazon-logo-transparent-icon-3.png);
+    background-image: url();
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 100%;
+    margin: auto; 
     height: 200px;   
  }
  .flex-6{
-    background-image: url(https://psfonttk.com/wp-content/uploads/2021/08/tiktok-png-transparent.png);
+    background-image: url();
     background-position: center ;
     background-size: 60%;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 100%;
+    margin: auto; 
     height: 200px;   
  }
  .flex-7{
-    background-image: url(https://pluspng.com/img-png/xiaomi-logo-png-xiaomi-mi-fit-logo-300.png);
+    background-image: url();
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;    
+    width: 100%;
+    margin: auto; 
+    height: 200px; 
+     
  }
  .flex-8{
-    background-image: url(http://pluspng.com/img-png/windows-10-logo-png-file-windows-10-logo-png-1000.png);
+    background-image: url();
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 100%;
+    margin: auto; 
     height: 200px;
+ } */
+
+.flex-1{
+
+}
+
+ .flex-2 img{
+    width: 65%;
  }
- .flex-9{
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.RrNq9h2Lq9uWNWAxPVBd0QHaHa&pid=Api&P=0);
-    background-position: top center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;   
+ .flex-1 img{
+    width: 50%;
  }
- .flex-10{
-    background-image: url(https://pngimg.com/uploads/netflix/netflix_PNG10.png);
-    background-position: center ;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;        
+
+ .flex-3 img{
+    width: 50%;
+ }
+ .flex-4 img{
+    width: 50%;
+ }
+ .flex-5 img{
+    width: 50%;
+ }
+
+.flex-6 img{
+    width: 50%;
+}
+
+.flex-7 img{
+    width: 50%;
+}
+
+.flex-8 img{
+    width: 50%;
+}
+
+ .flex-9 img{
+   width: 50%;   
+ }
+ .flex-10 img{
+    width: 50%;     
  }
  main{
-    
-   
-   
+   margin: auto;  
 
  }
+
+ @media (max-width:722px) {
+    .flex-container{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr ;  
+    
+    }
+    section{
+        width: 100%;
+       
+    }
+    .marca{
+        width: 100%;
+    }
+   
+        
+      
+    }
+    
+ 
 
  /* =======================maim=========== */
 
@@ -171,20 +222,22 @@ header nav ul li a:hover {
     
  }
 
- section{
-    
-   
+ section{   
     width: 20%;
-   
+
+ }
+
+ section h2{
+
  }
 
  section p{
    text-align: left;
-   line-height: 1.5rem;
+   
  }
 
  .marca{
-    padding: 0px 20px 50px 20px;
+    padding: 20px 20px 50px 20px;
  }
 
 
