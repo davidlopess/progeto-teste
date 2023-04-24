@@ -55,14 +55,39 @@ header nav ul li a:hover {
    
 }
 
+@media (max-width:640px) {
+    header{
+        display: block;
+        text-align: center;
+        margin: auto;        
+    }
+    header h1{
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+    }
+    header nav ul{
+        text-align: center;
+        margin: auto;
+        margin-bottom: -20px;
+    }
+    
+}
+
+
+
+
+
+
 .flex-container{
-    max-width: 100%;
+    width: 100%;
     height:auto;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
+    
      
 }
 /* https://tse4.mm.bing.net/th?id=OIP.BwEQe64gjJXiiS070rpFYQHaHa&pid=Api&P=0 */
@@ -171,7 +196,7 @@ header nav ul li a:hover {
  }
 
 .flex-6 img{
-    width: 50%;
+    width: 38%;
 }
 
 .flex-7 img{
@@ -193,24 +218,55 @@ header nav ul li a:hover {
 
  }
 
- @media (max-width:722px) {
-    .flex-container{
+  @media (max-width:1000px) {
+     .flex-container{
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr 1fr ;  
+       grid-template-columns: 1fr 1fr;  
     
     }
-    section{
-        width: 100%;
-       
-    }
+   
     .marca{
         width: 100%;
     }
-   
-        
-      
-    }
+   section h2{
     
+   }
+.flex-1 img{
+    width: 30%;
+}
+.flex-2 img{
+    width: 40%;
+ } 
+ .flex-3 img{
+    width: 30%;
+ }
+ .flex-4 img{
+    width: 30%;
+ }
+ .flex-5 img{
+    width: 30%;
+ }
+ .flex-6 img{
+    width: 23%;
+ }
+ .flex-7 img{
+    width: 30%;
+ }
+ .flex-8 img{
+    width: 30%;
+ }
+ .flex-9 img{
+    width: 30%;
+ }
+ .flex-10 img{
+    width: 30%;
+ }
+
+  }
+   
+ 
+ 
+
  
 
  /* =======================maim=========== */
@@ -223,11 +279,19 @@ header nav ul li a:hover {
  }
 
  section{   
-    width: 20%;
+    width: 25%;   
 
+ }
+ @media (max-width:1000px) {
+    section{
+        width: 100%;
+    }
+
+    
  }
 
  section h2{
+    width: 100%;
 
  }
 
@@ -243,15 +307,34 @@ header nav ul li a:hover {
 
 footer{
     background-color: black;
-   width: 100%;
+    width: 100%;
     display: flex;
     color: rgba(240, 248, 255, 0.729);
     justify-content: space-around;
+    padding: 30px;
+    margin: auto;
     
+}
+@media (max-width:500px) {
+    .footer p{
+        display: none;
+    }
+  
+    .navegacao{
+        width: 150%;
+    }
+    #esepcial h1{
+        margin: 0px;
+        padding: 0px;
+    }
+  
+   
 }
 
 .footer{
     padding: 12px;
+   
+  
 }
 
 .footer h2{
@@ -284,6 +367,7 @@ footer{
 .navegacao{
   align-items: center;
    display: flex;
+   
   
 }
 .navegacao li{
@@ -309,7 +393,13 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 130px;
+  padding-right: px;
+}
+@media (max-width:999px) {
+    footer p{
+        display: none;
+    }
+    
 }
 
 
